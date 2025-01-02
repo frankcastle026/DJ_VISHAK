@@ -23,6 +23,9 @@ export default {
       fontFamily: {
         playfair: ['"Playfair Display"', ...defaultTheme.fontFamily.serif],
       },
+      fontFamily: {
+        anton: ['Anton', 'serif'],
+      },
       fontWeight: {
         custom: "<weight>",
       },

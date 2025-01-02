@@ -36,7 +36,7 @@ function About() {
 
     return (
         <div className="bg-black text-white min-h-screen mt-16">
-            <h1 className="mt-16 ml-12 xl:text-2xl font-playfair font-custom text-base uppercase">
+            <h1 className="xl:ml-12 xl:text-5xl sm:2xl anton-regular  uppercase">
                 ABOUT ME
             </h1>
 
