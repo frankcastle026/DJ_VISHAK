@@ -4,7 +4,7 @@ import About from './About.jsx';
 import Event from './Event.jsx';
 
 function App(){
-  return <div>
+  return <div className='bg-black'>
     <Intro />
     <About />
     <Event />

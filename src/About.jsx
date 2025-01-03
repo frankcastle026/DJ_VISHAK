@@ -18,7 +18,7 @@ function About() {
                     }));
                 }
             },
-            { threshold: 0.3 } 
+            { threshold:  Array.from({ length: 71 }, (_, i) => i / 100).slice(30), } 
         );
 
         
@@ -35,13 +35,13 @@ function About() {
     }, []);
 
     return (
-        <div className="bg-black text-white min-h-screen mt-16">
-            <h1 className="xl:ml-12 xl:text-5xl sm:2xl anton-regular  uppercase">
+        <div className="bg-black text-white min-h-screen mt-5 text-lg xl:mt-16">
+            <h1 className="xl:ml-12 xl:text-5xl px-3 sm:text-3xl anton-regular uppercase">
                 ABOUT ME
             </h1>
 
             
-            <div className="flex">
+            <div className="flex mt-5">
                 <div
                     className={`about-animation transform transition-transform duration-1000 delay-200 ${
                         isVisible.firstSection ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'
@@ -57,7 +57,7 @@ function About() {
                     <br className="hidden xl:block" />
                     <br className="hidden xl:block" />
                     <p className="xl:mt-12 sm:ml-5 font-playfair font-custom text-base xl:text-2xl">
-                        What’s up, party people? I’m DJ Vishak, hailing from Chennai, here to turn your nights into unforgettable
+                        What’s up, party people?  I’m<span className='anton-regular uppercase text-blue-500'> DJ Vishak</span>, hailing from <span className='anton-regular uppercase text-yellow-300'>Chennai</span>, here to turn your nights into unforgettable
                         experiences! Known as one of the most sought-after DJs in the scene, I bring the energy, the beats, and the
                         vibe to every private party I spin at.
                     </p>
@@ -65,7 +65,7 @@ function About() {
             </div>
 
             
-            <div className="block mt-12">
+            <div className="flex mt-12 mb-12">
                 <div
                     className={`about-animation flex flex-row-reverse items-center transform transition-transform duration-1000 delay-200 ${
                         isVisible.secondSection ? 'translate-x-0 opacity-100' : 'translate-x-10 opacity-0'
@@ -75,12 +75,12 @@ function About() {
                     <img
                         src="./image2.png"
                         alt=""
-                        className="w-40 sm:w-48 md:w-64 lg:w-80 sm:mr-5 xl:ml-12 xl:mt-12"
+                        className="w-40 sm:w-48 md:w-64 lg:w-80 sm:mr-5 sm:mt-8 xl:ml-12 xl:mt-12"
                     />
                     <div className="text-white mt-8 sm:ml-5 xl:mt-12">
                         <p className="font-playfair font-custom text-base xl:text-2xl">
-                            I’ve had the honor of spinning tracks for some of the biggest names out there—Soundarya Rajinikanth’s
-                            wedding, Dhanush, Santhanu, director Shankar, Anand Shankar, and a star-studded list that keeps growing.
+                            I’ve had the honor of spinning tracks for some of the biggest names out there— <br /><span className='anton-regular uppercase text-green-400'> Soundarya Rajinikanth’s
+                            wedding, Dhanush, Santhanu, director Shankar, Anand Shankar</span>,<br /> and a star-studded list that keeps growing.
                         </p>
                     </div>
                 </div>
@@ -105,7 +105,7 @@ function About() {
                     <p className="xl:mt-12 sm:ml-5 font-playfair font-custom text-base xl:text-2xl">
                         Coming from a family deeply rooted in music, it’s more than just a career for me—it’s a way of life. Music
                         is my passion, my drive, and my art. If you’re looking for the ultimate party experience, you know I’ve got
-                        the soundtrack to make it unforgettable. Let’s keep the energy alive and the beats rolling! 🎧🎶
+                        the soundtrack to make it unforgettable.<br /> <span className='anton-regular uppercase text-red-500'> Let’s keep the energy alive and the beats rolling! </span>🎧🎶
                     </p>
                 </div>
             </div>

@@ -13,21 +13,21 @@ export default {
           '0%': { transform: 'translateX(-100%)', opacity: '0' },
           '100%': { transform: 'translateX(0)', opacity: '1' },
         },
+        ping: {
+          '0%': { transform: 'scale(1)', opacity: '1' },
+          '75%, 100%': { transform: 'scale(2)', opacity: '0' },
+        },
       },
       animation: {
         slideIn: 'slideIn 1s ease-out',
-      },
-      animation: {
         ping: 'ping 1s cubic-bezier(0, 0, 0.2, 1)',
       },
       fontFamily: {
         playfair: ['"Playfair Display"', ...defaultTheme.fontFamily.serif],
-      },
-      fontFamily: {
         anton: ['Anton', 'serif'],
       },
       fontWeight: {
-        custom: "<weight>",
+        custom: '700', // Replace with the desired weight
       },
     },
   },
@@ -35,5 +35,4 @@ export default {
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
   ],
-}
-
+};
