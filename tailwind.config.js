@@ -27,7 +27,7 @@ export default {
         anton: ['Anton', 'serif'],
       },
       fontWeight: {
-        custom: '700', // Replace with the desired weight
+        custom: '200', // Replace with the desired weight
       },
     },
   },

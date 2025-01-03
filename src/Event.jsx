@@ -22,14 +22,14 @@ function Event() {
   }, [visibleCount]);
 
   return (
-    <div className="bg-gradient-to-r from-blue-300 to-red-500 text-black min-h-screen mt-5 text-lg xl:mt-16 space-y-12">
+    <div className="bg-gradient-to-r from-blue-300 to-blue-500 text-black min-h-screen mt-5 text-lg xl:mt-16 space-y-12">
       <h1 className="xl:ml-12 xl:mt-16 xl:text-6xl py-12 sm:text-3xl anton-regular uppercase mt-12 text-center">
         EVENTS
       </h1>
 
       <div className="grid grid-cols-3 grid-rows-2 gap-2 sm:grid-cols-1 sm:grid-rows-6 xl:grid-cols-3 xl:grid-rows-2 xl:gap-10">
         <div
-          className={`col-span-2 row-span-1 bg-blue-500 video-element transform transition-transform duration-1000 ${
+          className={`col-span-2 row-span-1 bg-black video-element transform transition-transform duration-1000 ${
             visibleCount >= 1 ? "scale-100 opacity-100" : "scale-90 opacity-0"
           }`}
         >
@@ -37,7 +37,7 @@ function Event() {
           <video src="./LEO_Video.mp4" className="w-full h-full object-cover" controls></video>
         </div>
         <div
-          className={`col-span-1 row-span-1 bg-red-500 video-element transform transition-transform duration-1000 ${
+          className={`col-span-1 row-span-1 bg-black video-element transform transition-transform duration-1000 ${
             visibleCount >= 2 ? "scale-100 opacity-100" : "scale-90 opacity-0"
           }`}
         >
@@ -45,7 +45,7 @@ function Event() {
           <video src="./LEO_Video.mp4" className="w-full h-full object-cover" controls></video>
         </div>
         <div
-          className={`col-span-1 row-span-2 bg-green-500 video-element transform transition-transform duration-1000 ${
+          className={`col-span-1 row-span-2 bg-black video-element transform transition-transform duration-1000 ${
             visibleCount >= 3 ? "scale-100 opacity-100" : "scale-90 opacity-0"
           }`}
         >
@@ -53,7 +53,7 @@ function Event() {
           <video src="./LEO_Video.mp4" className="w-full h-full object-cover" controls></video>
         </div>
         <div
-          className={`col-span-1 row-span-1 bg-yellow-500 video-element transform transition-transform duration-1000 ${
+          className={`col-span-1 row-span-1 bg-black video-element transform transition-transform duration-1000 ${
             visibleCount >= 4 ? "scale-100 opacity-100" : "scale-90 opacity-0"
           }`}
         >
@@ -61,7 +61,7 @@ function Event() {
           <video src="./LEO_Video.mp4" className="w-full h-full object-cover" controls></video>
         </div>
         <div
-          className={`col-span-1 row-span-1 bg-purple-500 video-element transform transition-transform duration-1000 ${
+          className={`col-span-1 row-span-1 bg-black video-element transform transition-transform duration-1000 ${
             visibleCount >= 5 ? "scale-100 opacity-100" : "scale-90 opacity-0"
           }`}
         >
@@ -69,7 +69,7 @@ function Event() {
           <video src="./LEO_Video.mp4" className="w-full h-full object-cover" controls></video>
         </div>
         <div
-          className={`col-span-2 row-span-1 bg-orange-500 video-element transform transition-transform duration-1000 ${
+          className={`col-span-2 row-span-1 bg-black video-element transform transition-transform duration-1000 ${
             visibleCount >= 6 ? "scale-100 opacity-100" : "scale-90 opacity-0"
           }`}
         >

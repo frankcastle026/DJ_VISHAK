@@ -35,8 +35,8 @@ function About() {
     }, []);
 
     return (
-        <div className="bg-black text-white min-h-screen mt-5 text-lg xl:mt-16">
-            <h1 className="xl:ml-12 xl:text-5xl px-3 sm:text-3xl anton-regular uppercase">
+        <div className="bg-gradient-to-r from-gray-500 to-blue-300 text-black min-h-screen mt-5 text-lg xl:mt-16">
+            <h1 className="xl:ml-12 xl:text-5xl px-3 sm:text-3xl anton-regular uppercase text-center">
                 ABOUT ME
             </h1>
 
@@ -56,7 +56,7 @@ function About() {
                     <br className="hidden xl:block" />
                     <br className="hidden xl:block" />
                     <br className="hidden xl:block" />
-                    <p className="xl:mt-12 sm:ml-5 font-playfair font-custom text-base xl:text-2xl">
+                    <p className="xl:mt-12 sm:ml-5 font-playfair font-custom text-base  xl:text-2xl">
                         What’s up, party people?  I’m<span className='anton-regular uppercase text-blue-500'> DJ Vishak</span>, hailing from <span className='anton-regular uppercase text-yellow-300'>Chennai</span>, here to turn your nights into unforgettable
                         experiences! Known as one of the most sought-after DJs in the scene, I bring the energy, the beats, and the
                         vibe to every private party I spin at.
@@ -77,7 +77,7 @@ function About() {
                         alt=""
                         className="w-40 sm:w-48 md:w-64 lg:w-80 sm:mr-5 sm:mt-8 xl:ml-12 xl:mt-12"
                     />
-                    <div className="text-white mt-8 sm:ml-5 xl:mt-12">
+                    <div className="mt-8 sm:ml-5 xl:mt-12">
                         <p className="font-playfair font-custom text-base xl:text-2xl">
                             I’ve had the honor of spinning tracks for some of the biggest names out there— <br /><span className='anton-regular uppercase text-green-400'> Soundarya Rajinikanth’s
                             wedding, Dhanush, Santhanu, director Shankar, Anand Shankar</span>,<br /> and a star-studded list that keeps growing.
