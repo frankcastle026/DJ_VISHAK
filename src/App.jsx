@@ -3,6 +3,7 @@ import Intro from './Intro.jsx';
 import About from './About.jsx';
 import Event from './Event.jsx';
 import Service from './service.jsx';
+import Contact from './Contact.jsx';
 
 function App(){
   return <div className='bg-black'>
@@ -10,6 +11,7 @@ function App(){
     <About />
     <Event />
     <Service />
+    <Contact />
   </div>
 }
 
