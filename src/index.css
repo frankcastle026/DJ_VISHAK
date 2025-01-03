@@ -7,4 +7,17 @@
       @apply font-anton font-normal;
     }
   }
+
+  .social-btn {
+    @apply w-12 h-12 flex justify-center items-center rounded-full bg-black text-white text-xl transition duration-300 ease-in-out shadow-lg;
+  }
+  
+  .social-btn:hover {
+    @apply shadow-2xl transform translate-y-[-2px];
+  }
+  
+  .social-btn i {
+    @apply text-2xl;
+  }
+  
   

@@ -19,7 +19,7 @@ function About() {
   }, []);
 
   return (
-    <div className="bg-gradient-to-r from-gray-300 to-gray-500 flex justify-center items-center h-screen">
+    <div className="bg-gradient-to-r from-gray-300 to-gray-500 flex justify-center items-center h-screen" id='Intro'>
       <img
         ref={imageRef}
         src="./DJ VISHAK BUSINESS CARD.png"

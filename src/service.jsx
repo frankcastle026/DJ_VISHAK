@@ -2,7 +2,7 @@ import React from "react";
 
 function Service() {
   return (
-    <div className="bg-black text-white min-h-screen text-lg xl:mt-12">
+    <div className="bg-black text-white min-h-screen text-lg xl:mt-12" id="Service">
       <h1 className="xl:ml-12 xl:mt-8 xl:text-6xl py-12 sm:text-3xl anton-regular uppercase text-center">
         SERVICES
       </h1>

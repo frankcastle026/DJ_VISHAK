@@ -22,7 +22,7 @@ function Event() {
   }, [visibleCount]);
 
   return (
-    <div className="bg-gradient-to-r from-blue-300 to-blue-500 text-black min-h-screen mt-5 text-lg xl:mt-16 space-y-12">
+    <div className="bg-gradient-to-r from-blue-300 to-blue-500 text-black min-h-screen mt-5 text-lg xl:mt-16 space-y-12" id="Event">
       <h1 className="xl:ml-12 xl:mt-16 xl:text-6xl py-12 sm:text-3xl anton-regular uppercase mt-12 text-center">
         EVENTS
       </h1>

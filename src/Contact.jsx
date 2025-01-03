@@ -43,9 +43,9 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-gradient-to-r from-gray-300 to-gray-500 text-black min-h-screen mt-5 text-lg xl:mt-16 flex justify-center items-center">
+    <div className="bg-gradient-to-r from-gray-300 to-gray-500 text-black min-h-screen mt-5 text-lg xl:mt-16 flex justify-center items-center" id="Contact">
       <div
-        id="Contact"
+        
         className="max-w-2xl mx-auto p-8 shadow-lg text-center"
       >
         <h2 className="text-black text-3xl xl:text-5xl anton-regular mb-4">

@@ -35,7 +35,7 @@ function About() {
     }, []);
 
     return (
-        <div className="bg-gradient-to-r from-gray-500 to-blue-300 text-black min-h-screen mt-5 text-lg xl:mt-16">
+        <div className="bg-gradient-to-r from-gray-500 to-blue-300 text-black min-h-screen mt-5 text-lg xl:mt-16" id='About'>
             <h1 className="xl:ml-12 xl:text-5xl px-3 sm:text-3xl anton-regular uppercase text-center">
                 ABOUT ME
             </h1>
